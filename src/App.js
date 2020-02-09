@@ -10,7 +10,7 @@ export default App;
 
 function tick() {
   const element = (
-    <div>
+    <div className="time">
       <h1>It is {new Date().toLocaleTimeString()}.</h1>
     </div>
   );
